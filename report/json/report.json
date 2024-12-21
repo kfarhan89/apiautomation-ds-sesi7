@@ -1,0 +1,715 @@
+{
+  "config": {
+    "configFile": "D:\\勉強\\Mini Bootcamp Digital Skola\\API Automation\\playwright.config.js",
+    "rootDir": "D:/勉強/Mini Bootcamp Digital Skola/API Automation/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 8
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "report/json/report.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "outputFolder": "report/html",
+          "open": "never"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "D:/勉強/Mini Bootcamp Digital Skola/API Automation/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "D:/勉強/Mini Bootcamp Digital Skola/API Automation/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "D:/勉強/Mini Bootcamp Digital Skola/API Automation/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "D:/勉強/Mini Bootcamp Digital Skola/API Automation/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "D:/勉強/Mini Bootcamp Digital Skola/API Automation/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "D:/勉強/Mini Bootcamp Digital Skola/API Automation/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.49.1",
+    "workers": 8,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "api-resqres.spec.js",
+      "file": "api-resqres.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "GET reqres.in",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 251,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-21T12:56:24.225Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "90f5da20b71532d520ab-21d9e0a9680daf4d2f21",
+          "file": "api-resqres.spec.js",
+          "line": 7,
+          "column": 1
+        },
+        {
+          "title": "POST reqres.in",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "status": "passed",
+                  "duration": 616,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-21T12:56:24.530Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "90f5da20b71532d520ab-822b4a29718ebc1ef95f",
+          "file": "api-resqres.spec.js",
+          "line": 31,
+          "column": 1
+        },
+        {
+          "title": "PUT reqres.in",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "status": "passed",
+                  "duration": 658,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-21T12:56:24.476Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "90f5da20b71532d520ab-cc77e4379af6934a2805",
+          "file": "api-resqres.spec.js",
+          "line": 58,
+          "column": 1
+        },
+        {
+          "title": "DELETE reqres.in",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "status": "passed",
+                  "duration": 600,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-21T12:56:24.454Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "90f5da20b71532d520ab-34a80081099532a5ff54",
+          "file": "api-resqres.spec.js",
+          "line": 84,
+          "column": 1
+        },
+        {
+          "title": "GET reqres.in",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "status": "passed",
+                  "duration": 208,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-21T12:56:24.505Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "90f5da20b71532d520ab-356ae9d7748e47eae1ff",
+          "file": "api-resqres.spec.js",
+          "line": 7,
+          "column": 1
+        },
+        {
+          "title": "POST reqres.in",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "status": "passed",
+                  "duration": 658,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-21T12:56:24.518Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "90f5da20b71532d520ab-d8b887e6037bee6feac8",
+          "file": "api-resqres.spec.js",
+          "line": 31,
+          "column": 1
+        },
+        {
+          "title": "PUT reqres.in",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 8,
+                  "status": "passed",
+                  "duration": 750,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-21T12:56:26.282Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "90f5da20b71532d520ab-65ab7ec989e7d37ca7e3",
+          "file": "api-resqres.spec.js",
+          "line": 58,
+          "column": 1
+        },
+        {
+          "title": "DELETE reqres.in",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "status": "passed",
+                  "duration": 443,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-21T12:56:24.728Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "90f5da20b71532d520ab-158a23ff98ccfd9dac1f",
+          "file": "api-resqres.spec.js",
+          "line": 84,
+          "column": 1
+        },
+        {
+          "title": "GET reqres.in",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 11,
+                  "status": "passed",
+                  "duration": 244,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-21T12:56:27.196Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "90f5da20b71532d520ab-e349400c41e7c45e23a0",
+          "file": "api-resqres.spec.js",
+          "line": 7,
+          "column": 1
+        },
+        {
+          "title": "POST reqres.in",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 12,
+                  "status": "passed",
+                  "duration": 605,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-21T12:56:27.296Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "90f5da20b71532d520ab-02346a81cdaac8c29c01",
+          "file": "api-resqres.spec.js",
+          "line": 31,
+          "column": 1
+        },
+        {
+          "title": "PUT reqres.in",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 13,
+                  "status": "passed",
+                  "duration": 634,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-21T12:56:27.348Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "90f5da20b71532d520ab-3305267501fcdf3d3c2b",
+          "file": "api-resqres.spec.js",
+          "line": 58,
+          "column": 1
+        },
+        {
+          "title": "DELETE reqres.in",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 14,
+                  "status": "passed",
+                  "duration": 535,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-21T12:56:27.367Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "90f5da20b71532d520ab-97d603bffcebfca6b179",
+          "file": "api-resqres.spec.js",
+          "line": 84,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "api-test.spec.js",
+      "file": "api-test.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Test Case 1",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "status": "passed",
+                  "duration": 465,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-21T12:56:24.346Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ea20521d6fcf43dcdb4f-765dd2a6ccfd9bbfcd98",
+          "file": "api-test.spec.js",
+          "line": 6,
+          "column": 1
+        },
+        {
+          "title": "Test Case 2",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "status": "passed",
+                  "duration": 443,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "\u001b[33m200\u001b[39m\n"
+                    },
+                    {
+                      "text": "{\n  id: \u001b[32m'ff808181932badb60193e94a67b41201'\u001b[39m,\n  name: \u001b[32m'Apple MacBook Pro 16'\u001b[39m,\n  createdAt: \u001b[32m'2024-12-21T12:56:27.828+00:00'\u001b[39m,\n  data: {\n    year: \u001b[33m2019\u001b[39m,\n    price: \u001b[33m1849.99\u001b[39m,\n    \u001b[32m'CPU model'\u001b[39m: \u001b[32m'Intel Core i9'\u001b[39m,\n    \u001b[32m'Hard disk size'\u001b[39m: \u001b[32m'1 TB'\u001b[39m\n  }\n}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-21T12:56:24.529Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ea20521d6fcf43dcdb4f-ddb1441c68825aab1fa0",
+          "file": "api-test.spec.js",
+          "line": 29,
+          "column": 1
+        },
+        {
+          "title": "Test Case 1",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 9,
+                  "status": "passed",
+                  "duration": 485,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-21T12:56:26.845Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ea20521d6fcf43dcdb4f-efff73cec3c477d92715",
+          "file": "api-test.spec.js",
+          "line": 6,
+          "column": 1
+        },
+        {
+          "title": "Test Case 2",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 10,
+                  "status": "passed",
+                  "duration": 426,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "\u001b[33m200\u001b[39m\n"
+                    },
+                    {
+                      "text": "{\n  id: \u001b[32m'ff808181932badb60193e94a71b31202'\u001b[39m,\n  name: \u001b[32m'Apple MacBook Pro 16'\u001b[39m,\n  createdAt: \u001b[32m'2024-12-21T12:56:30.387+00:00'\u001b[39m,\n  data: {\n    year: \u001b[33m2019\u001b[39m,\n    price: \u001b[33m1849.99\u001b[39m,\n    \u001b[32m'CPU model'\u001b[39m: \u001b[32m'Intel Core i9'\u001b[39m,\n    \u001b[32m'Hard disk size'\u001b[39m: \u001b[32m'1 TB'\u001b[39m\n  }\n}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-21T12:56:27.083Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ea20521d6fcf43dcdb4f-ded2283ca6cf52f245d8",
+          "file": "api-test.spec.js",
+          "line": 29,
+          "column": 1
+        },
+        {
+          "title": "Test Case 1",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 15,
+                  "status": "passed",
+                  "duration": 455,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-21T12:56:27.363Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ea20521d6fcf43dcdb4f-d1b4a66392af5e9bf436",
+          "file": "api-test.spec.js",
+          "line": 6,
+          "column": 1
+        },
+        {
+          "title": "Test Case 2",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 16,
+                  "status": "passed",
+                  "duration": 408,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "\u001b[33m200\u001b[39m\n"
+                    },
+                    {
+                      "text": "{\n  id: \u001b[32m'ff808181932badb60193e94a77ec1203'\u001b[39m,\n  name: \u001b[32m'Apple MacBook Pro 16'\u001b[39m,\n  createdAt: \u001b[32m'2024-12-21T12:56:31.980+00:00'\u001b[39m,\n  data: {\n    year: \u001b[33m2019\u001b[39m,\n    price: \u001b[33m1849.99\u001b[39m,\n    \u001b[32m'CPU model'\u001b[39m: \u001b[32m'Intel Core i9'\u001b[39m,\n    \u001b[32m'Hard disk size'\u001b[39m: \u001b[32m'1 TB'\u001b[39m\n  }\n}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-21T12:56:28.648Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ea20521d6fcf43dcdb4f-0f3e0432799625b2140a",
+          "file": "api-test.spec.js",
+          "line": 29,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2024-12-21T12:56:21.850Z",
+    "duration": 7307.275000000001,
+    "expected": 18,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
